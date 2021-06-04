@@ -38,10 +38,10 @@ int main(void) {
     }
   }
 }
-float mc_pi(int n)
-{int c=0,i;
+float mc_pi(int i)
+{int c=0;
 float x,y;
- for(i=1;i<=n;i++)
+ for(j=1;j<=i;j++)
  {
    x=frandom();
   y=frandom();
@@ -49,8 +49,7 @@ float x,y;
   {s++;}
  }
  c*=4;
-  c=(float)c/n;
- return c;
+ return (float) c/i;
 }
   
   
