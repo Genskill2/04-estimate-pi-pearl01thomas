@@ -45,8 +45,9 @@ float x,y;
  {
    x=frandom();
   y=frandom();
-  if(((x*x)+(y*y))<=1)
+  if((x*x + y*y) <=1)
   {s++;}
+ }
  c*=4;
   c=(float)c/n;
  return c;
