@@ -46,7 +46,7 @@ float x,y;
    x=frandom();
   y=frandom();
   if((x*x + y*y) <=1)
-  {c++;}
+  c++;
  }
  c*=4;
  return (float) c/i;
