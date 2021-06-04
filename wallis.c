@@ -24,3 +24,13 @@ int main(void) {
   }
 }
 
+float wallis_pi(int it)
+{float pie=1;
+ int i;
+ for(i=1;i<=it;i++)
+ { pie*=(4*i*i)/((4*i*i)-1);
+ }
+ pie*=2;
+ return pie;
+}
+
